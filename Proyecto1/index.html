@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 1</title>
+
+    <script src="/Proyecto1/calculadora.js"></script>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .calculator {
+            width: 200px;
+            margin: 10% auto;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+
+        button {
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <div class="calculator">
+        <!--  -->
+        <input type="text" id="result" readonly>
+        <div class="buttons">
+
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            
+            <button id="zero">0</button>
+            <button id="subtract">-</button>
+            <button id="add">+</button>
+            
+            <button id="multiply">*</button>
+            <button id="divide">/</button>
+            <button id="decimal">.</button>
+         
+            <button id="equals" onclick="calculateResult()">=</button>
+            <button id="clear" onclick="clearResult()">C</button>
+        </div>
+      </div>
+</body>
+</html>
