@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Tareas</title>
+
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .center{
+      margin: 0 auto;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+
+    button {
+      padding: 8px 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .completed {
+      text-decoration: line-through;
+    }
+
+
+
+  </style>
+
+  <script src="/Proyecto3/lista_tareas.js"></script>
+</head>
+<body>
+  <div class="center">
+    <h1>Lista de Tareas</h1>
+    <div>
+      <input type="text" id="taskInput" placeholder="Agregar una nueva tarea">
+      <button onclick="addTask()">Agregar</button>
+    </div>
+    <ul id="taskList"></ul>
+  
+  </div>
+
+
+</body>
+</html>
