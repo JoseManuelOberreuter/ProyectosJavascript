@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de contraseñas</title>
+</head>
+<body>
+    <h1>Generador de contraseñas</h1>
+
+    <label for="longitud">Longitud de la contraseña:</label>
+    <!-- input de usuario tipo numero -->
+    <input type="number" id="longitud" min="1" max="50" value="8">
+
+    <br><br>
+    <!-- boton con funcion js -->
+    <button onclick="generarContrasena()">Generar contraseña</button>
+
+    <br><br>
+
+    <label for="resultado">Contraseña generada:</label>
+    <!-- input para mostrar la contraseña solo lectura -->
+    <input type="text" id="resultado" readonly>
+
+    <script src="/Proyecto4/generador_contraseñas.js"></script>
+</body>
+</html>
