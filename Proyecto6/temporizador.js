@@ -1,5 +1,5 @@
 // Define una variable para almacenar el tiempo restante en segundos
-let tiempo = 60;
+let tiempo = 300;
 
 // Define una variable para almacenar el ID del intervalo
 let intervalo;
@@ -71,7 +71,7 @@ function reiniciar() {
   detener();
   
   // Restablece el tiempo restante a su valor inicial
-  tiempo = 60;
+  tiempo = 300;
   
   // Actualiza el tiempo mostrado en la pantalla
   actualizarTiempo();
